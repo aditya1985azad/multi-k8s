@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: client
-          image: adityaazad/aditya_centos:v1
+          image: stephengrider/multi-client
           ports:
             - containerPort: 3000
